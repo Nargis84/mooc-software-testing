@@ -30,7 +30,7 @@ public class RomanNumeral {
             else
                 convertedNumber -= currentNumber;
         }
-
+        System.out.println("checking xonverted num"+convertedNumber);
         return convertedNumber;
 
     }
